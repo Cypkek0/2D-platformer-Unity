@@ -1,22 +1,40 @@
-Library/
-Logs/
-Obj/
-Temp/
-Build/
-Builds/
-MemoryCaptures/
-Packages/manifest.json
-Packages/packages-lock.json
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Pp]rojectSettings/UndoHistory/
+[Pp]rojectSettings/EditorBuildSettings.asset
+[Pp]rojectSettings/ProjectVersion.txt
+[Pp]rojectSettings/ProjectSettings.asset
+
+# Rider / JetBrains / VS
+.vscode/
 .vs/
+.idea/
 *.csproj
 *.sln
-*.user
-*.unityproj
-*.pidb
 *.suo
-*.tmp
+*.user
 *.userprefs
-.idea/
-*.dotCover
-*.Rider*
-UserSettings/
+*.pidb
+*.booproj
+
+# OS / system files
+.DS_Store
+Thumbs.db
+
+# Unity package manager
+Packages/packages-lock.json
+
+# Crash Reports
+sysinfo.txt
+
+# Generated builds
+*.apk
+*.aab
+*.exe
+
+# Logs
+*.log
+*.stacktrace
